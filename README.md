@@ -3,6 +3,11 @@
 
 ## CNN을 이용한 차량 번호판 인식 
 > 참고 사이트 : https://www.kaggle.com/sarthakvajpayee/license-plate-recognition-using-cnn/data?select=indian_license_plate.xml
+
+## 파일 설명
+* data : 학습시킬 때 사용하는 이미지
+* test_data : 테스트 할 때 사용하는 이미지
+* cnn_visualization.ipynb : 학습시키는 코드 및 수행결과
 ## 1. Model
 ![image](https://user-images.githubusercontent.com/53362054/120901753-acf3d180-c677-11eb-8d70-fefdae682e33.png)
 ## 2. Predict result
