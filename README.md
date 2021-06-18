@@ -26,6 +26,9 @@ activations = activation_model.predict(test_generator)
 ```
 
 ## 4. 결과
+
+## 4-1. Visualizing activations
+
 ### conv2d_1
 ![image](https://user-images.githubusercontent.com/53362054/120901924-7b2f3a80-c678-11eb-820d-8df7d3f61b47.png)
 
@@ -39,4 +42,16 @@ activations = activation_model.predict(test_generator)
 ### maxpool_1
 ![image](https://user-images.githubusercontent.com/53362054/120902000-d95c1d80-c678-11eb-9479-c6eeeb0dba7a.png)
 
-> 참고사항 : https://keras.io/api/preprocessing/image/
+<br>
+
+## 4-2. Visualizing filters
+![image](https://user-images.githubusercontent.com/53362054/122533008-0d154b00-d05c-11eb-9d12-50d787d7b75d.png)
+
+<br>
+
+## 4-3. Visualizing heatmaps
+![image](https://user-images.githubusercontent.com/53362054/122533159-333aeb00-d05c-11eb-85c4-03e7000cc55a.png)
+
+<br>
+
+> 참고 : https://keras.io/api/preprocessing/image/
